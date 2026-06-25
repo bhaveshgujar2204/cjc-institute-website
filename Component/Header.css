@@ -1,0 +1,71 @@
+/* Navbar Container */
+.premium-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+/* Nav Menu */
+.nav-menu {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+/* Nav Links */
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+/* Hover Underline Animation */
+.nav-menu a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  background: #ffd369;
+  transition: 0.4s ease;
+}
+
+.nav-menu a:hover::after {
+  width: 100%;
+}
+
+.nav-menu a:hover {
+  color: #ffd369;
+}
+
+/* Login Button Special Style */
+.login-btn {
+  background: #ffd369;
+  padding: 8px 18px;
+  border-radius: 25px;
+  color: black !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: white;
+  transform: scale(1.05);
+}

@@ -1,0 +1,89 @@
+{
+  "batches": [
+    {
+      "batchNo": "B198",
+      "courseName": "Java",
+      "batchStartDate": "2026-02-24",
+      "batchFees": "40000",
+      "batchMode": [
+        "Online",
+        "Offline"
+      ],
+      "batchType": "Regular",
+      "id": "adb8"
+    },
+    {
+      "id": "faf3",
+      "batchNo": "B198",
+      "courseName": "Python",
+      "batchStartDate": "2026-06-25",
+      "batchFees": "35000",
+      "batchMode": [
+        "Offline"
+      ],
+      "batchType": "Regular",
+      "batchLogo": ""
+    }
+  ],
+  "faculty": [
+    {
+      "id": "55aa",
+      "facultyPhoto": {
+        "0": {}
+      },
+      "facultyId": "101",
+      "facultyName": "Bhavesh Gujar",
+      "facultyCourse": "Java",
+      "facultyExperience": "2 Year"
+    },
+    {
+      "facultyPhoto": {},
+      "facultyId": "202",
+      "facultyName": "Rohan",
+      "facultyCourse": "Python",
+      "facultyExperience": "5 Year",
+      "facultyContact": "7057724256",
+      "id": "c2d0"
+    },
+    {
+      "id": "04fc",
+      "facultyPhoto": {},
+      "facultyId": "203",
+      "facultyName": "Sandip",
+      "facultyCourse": "AWS",
+      "facultyExperience": "6 Year"
+    },
+    {
+      "id": "0281",
+      "facultyPhoto": {},
+      "facultyId": "4023",
+      "facultyName": "Shyam",
+      "facultyCourse": "DataScience",
+      "facultyExperience": "8 year"
+    },
+    {
+      "id": "d044",
+      "facultyPhoto": {},
+      "facultyId": "5023",
+      "facultyName": "rani",
+      "facultyCourse": "React",
+      "facultyExperience": "8 year"
+    },
+    {
+      "id": "0843",
+      "facultyPhoto": {},
+      "facultyId": "101",
+      "facultyName": "Bhavesh Gujar",
+      "facultyCourse": "React",
+      "facultyExperience": "5 Year"
+    },
+    {
+      "id": "4b62",
+      "facultyPhoto": {},
+      "facultyId": "101",
+      "facultyName": "Bhavesh Gujar",
+      "facultyCourse": "React",
+      "facultyExperience": "5 Year"
+    }
+  ]
+}
