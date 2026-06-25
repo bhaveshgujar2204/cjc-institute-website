@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import AddBatch from '../batch/AddBatch';
 import ManageBatch from "../batch/ManageBatch";
-import EditBatch from "../batch/editBatch";
+import EditBatch from "../batch/EditBatch";
 import AddFaculty from "../faculty/AddFaculty";
 import ManageFaculty from "../faculty/ManageFaculty";
 import EditFaculty from "../faculty/EditFaculty";
