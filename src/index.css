@@ -1,0 +1,12 @@
+.vertical-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    height: 650px;
+}
+.my-grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap:20px
+}
